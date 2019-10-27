@@ -1,15 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript - MA03 - Question 1</title>
 </head>
+
 <body>
 
-<!--Contact Form-->
+    <!--Contact Form-->
+
+    <h2>
+        Validation of email and phonenumber.
+    </h2>
+    <form onsubmit="validateForm(event)" method="GET">
+        <div>Firstname:</div>
+        <input type="text" name="firstname" id="firstname">
+        <div>Lastname:</div>
+        <input type="text" name="lastname" id="lastname">
+        <div>Phonenumber:</div>
+        <input type="text" name="phonenumber" id="phonenumber">
+        <div>Email:</div>
+        <input type="text" name="email" id="email">
+        <div class="clear"></div>
+        <div id="submit"><input type="submit" value="Send"></div>
+    </form>
 
 
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
